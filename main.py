@@ -4,7 +4,10 @@ from fetch_stock_video import get_stock_clips
 from assemble_short import create_branded_short
 from generate_metadata import generate_title, generate_description
 from upload_youtube import upload_video
+from check_topic_count import check_and_alert
+from send_alert import send_email
 import os
+import traceback
 
 def run_pipeline():
     print("1. Selecting topic...")
@@ -34,8 +37,32 @@ def run_pipeline():
         if os.path.exists(clip):
             os.remove(clip)
     
+    print("7. Checking topic count for low-topic alert...")
+    check_and_alert()
+    
     print(f"Done! Video ID: {video_id}")
     return video_id
 
 if __name__ == "__main__":
-    run_pipeline()
+    try:
+        run_pipeline()
+    except Exception as e:
+        error_details = traceback.format_exc()
+        print(f"ERROR: {error_details}")
+        
+        subject = "🔴 FitSehatZone Bot: Workflow Failed"
+        body = f"""Hi,
+
+The video generation/upload pipeline failed with this error:
+
+{str(e)}
+
+Full traceback:
+{error_details}
+
+Please check the GitHub Actions logs for more details.
+
+- FitSehatZone Bot"""
+        send_email(subject, body)
+        
+        raise  # Re-raise so GitHub Actions still shows the run as failed
