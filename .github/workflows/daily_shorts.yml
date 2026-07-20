@@ -16,11 +16,19 @@ jobs:
         with:
           python-version: '3.11'
       
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu imagemagick
       
-      - run: pip install -r requirements.txt
+      - name: Fix ImageMagick policy for text rendering
+        run: sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml
       
-      - run: python main.py
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Run video generation pipeline
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python main.py
       
       - uses: actions/upload-artifact@v4
         with:
