@@ -2,6 +2,8 @@ from fetch_topic import get_next_topic
 from generate_audio import create_audio
 from fetch_stock_video import get_stock_clips
 from assemble_short import create_branded_short
+from generate_metadata import generate_title, generate_description
+from upload_youtube import upload_video
 import os
 
 def run_pipeline():
@@ -9,10 +11,10 @@ def run_pipeline():
     category, topic = get_next_topic()
     print(f"   Title: {topic['title']}")
     
-    print("2. Fetching topic-specific stock clips...")
+    print("2. Fetching stock clips...")
     stock_clips = get_stock_clips(topic['keywords'], num_clips=3)
     
-    print("3. Generating Hindi audio (with question included)...")
+    print("3. Generating Hindi audio...")
     audio_path, voice_used = create_audio(topic['hindi_script'])
     
     print("4. Assembling video...")
@@ -20,12 +22,20 @@ def run_pipeline():
         stock_clips, audio_path, topic['title'], category, topic['engagement_text']
     )
     
+    print("5. Generating metadata...")
+    yt_title = generate_title(topic['title'])
+    yt_description = generate_description(topic['title'], topic['engagement_text'], category)
+    
+    print("6. Uploading to YouTube...")
+    video_id = upload_video(video_path, yt_title, yt_description, 
+                             tags=["health", "fitness", "india", "shorts"])
+    
     for clip in stock_clips:
         if os.path.exists(clip):
             os.remove(clip)
     
-    print(f"Done! Video: {video_path}")
-    return video_path
+    print(f"Done! Video ID: {video_id}")
+    return video_id
 
 if __name__ == "__main__":
     run_pipeline()
