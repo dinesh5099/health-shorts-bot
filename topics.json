@@ -2,17 +2,65 @@
   "tips_and_tricks": [
     {
       "title": "Drink Water First Thing in Morning",
-      "hindi_script": "सुबह उठते ही खाली पेट पानी पीना...",
+      "hindi_script": "सुबह उठते ही खाली पेट पानी पीना आपके शरीर के लिए बहुत फायदेमंद है। रातभर सोने के बाद आपका शरीर डिहाइड्रेट हो जाता है, इसलिए सुबह पानी पीना बहुत जरूरी है। यह आपके मेटाबॉलिज्म को तेज करता है, शरीर से विषाक्त पदार्थों को बाहर निकालता है, और पाचन तंत्र को भी बेहतर बनाता है। कोशिश करें कि रोज सुबह कम से कम एक से दो गिलास पानी पिएं। क्या आप सुबह उठकर पानी पीते हैं? कमेंट में जरूर बताएं!",
       "keywords": ["drinking water", "glass of water", "morning routine"],
-      "engagement_question": "Do you drink water first thing in the morning? Tell us in comments!"
+      "engagement_text": "Do YOU drink water first thing in the morning? 💧"
+    },
+    {
+      "title": "Signs of Vitamin D Deficiency",
+      "hindi_script": "क्या आपको हमेशा थकान महसूस होती है या जोड़ों में दर्द रहता है? यह विटामिन डी की कमी का संकेत हो सकता है। विटामिन डी हमारी हड्डियों को मजबूत बनाता है और इम्यून सिस्टम को भी बेहतर करता है। सुबह की धूप में रोजाना पंद्रह से बीस मिनट बिताना, और अंडे, मशरूम, दूध जैसी चीजें खाना विटामिन डी बढ़ाने में मदद करता है। क्या आपने कभी विटामिन डी टेस्ट कराया है? कमेंट में बताएं!",
+      "keywords": ["sunlight morning", "vitamin food", "healthy lifestyle"],
+      "engagement_text": "Have you ever checked your Vitamin D levels? ☀️"
+    },
+    {
+      "title": "Why Stretching After Waking Up Helps",
+      "hindi_script": "सोकर उठने के बाद स्ट्रेचिंग करना आपके शरीर को दिन की शुरुआत के लिए तैयार करता है। रातभर सोने के बाद मांसपेशियां जकड़ जाती हैं, स्ट्रेचिंग से रक्त प्रवाह बढ़ता है और शरीर में लचीलापन आता है। सिर्फ पांच मिनट की स्ट्रेचिंग आपको दिनभर एनर्जेटिक और तनावमुक्त रखने में मदद कर सकती है। क्या आप सुबह स्ट्रेचिंग करते हैं? हमें कमेंट में बताएं!",
+      "keywords": ["morning stretching", "flexibility exercise", "wake up stretch"],
+      "engagement_text": "Do you stretch every morning? 🙆‍♀️"
+    },
+    {
+      "title": "Benefits of Sleeping Early",
+      "hindi_script": "जल्दी सोने से आपके शरीर को पूरी तरह से आराम मिलता है और यह आपकी सेहत के लिए बहुत जरूरी है। जब आप समय पर सोते हैं, तो आपका शरीर खुद को ठीक करने का समय पाता है, जिससे इम्यूनिटी मजबूत होती है। इसके अलावा, जल्दी सोने से आपका मन शांत रहता है और अगले दिन आप ज्यादा एनर्जेटिक महसूस करते हैं। कोशिश करें कि रात को दस से ग्यारह बजे तक सो जाएं। आप रात को कितने बजे सोते हैं? कमेंट में बताएं!",
+      "keywords": ["sleeping peacefully", "bedtime routine", "good sleep"],
+      "engagement_text": "What time do you usually sleep? 😴"
+    },
+    {
+      "title": "Does Cold Water Cause Weight Gain",
+      "hindi_script": "यह एक बहुत बड़ी गलतफहमी है कि ठंडा पानी पीने से वजन बढ़ता है। सच यह है कि पानी का तापमान वजन बढ़ने से कोई सीधा संबंध नहीं रखता। वजन बढ़ना पूरी तरह आपकी कुल कैलोरी खपत और शारीरिक गतिविधि पर निर्भर करता है, न कि पानी के तापमान पर। हालांकि, गुनगुना पानी पाचन के लिए थोड़ा बेहतर माना जाता है। आप किस तरह का पानी पीना पसंद करते हैं - ठंडा या गुनगुना? कमेंट में बताएं!",
+      "keywords": ["cold water glass", "drinking water", "healthy hydration"],
+      "engagement_text": "Cold water or warm water - which do YOU prefer? 🧊"
     }
   ],
   "nutrition_facts": [
     {
-      "title": "Is Curd Good Every Day",
-      "hindi_script": "दही रोजाना खाना...",
-      "keywords": ["yogurt curd", "curd bowl", "dairy food"],
-      "engagement_question": "Do you eat curd daily? Let us know below!"
+      "title": "Rice vs Roti for Weight Loss",
+      "hindi_script": "चावल और रोटी को लेकर हमेशा एक बहस रहती है कि वजन घटाने के लिए कौन सा बेहतर है। असल में दोनों में कैलोरी लगभग बराबर होती है, लेकिन रोटी में फाइबर ज्यादा होता है, जो आपको लंबे समय तक भरा हुआ महसूस कराता है। इसके अलावा रोटी का ग्लाइसेमिक इंडेक्स भी कम होता है, जिससे ब्लड शुगर धीरे-धीरे बढ़ता है। वजन घटाने के लिए रोटी थोड़ा बेहतर विकल्प हो सकती है, लेकिन मात्रा का ध्यान रखना जरूरी है। आप चावल या रोटी में से क्या ज्यादा पसंद करते हैं? कमेंट में बताएं!",
+      "keywords": ["rice roti indian food", "chapati wheat", "indian meal"],
+      "engagement_text": "Rice or Roti - what's YOUR favorite? 🍚🫓"
+    },
+    {
+      "title": "Is Banana Good on Empty Stomach",
+      "hindi_script": "केला खाली पेट खाना ज्यादातर लोगों के लिए पूरी तरह सुरक्षित है और यह तुरंत एनर्जी देता है। इसमें पोटेशियम और फाइबर होता है, जो पाचन तंत्र के लिए अच्छा माना जाता है। हालांकि, अगर आपको एसिडिटी या गैस की समस्या है, तो खाली पेट केला खाने से बचना चाहिए। बेहतर होगा कि आप इसे किसी और चीज के साथ मिलाकर खाएं, जैसे ओट्स या दूध के साथ। क्या आप सुबह केला खाते हैं? कमेंट में बताएं!",
+      "keywords": ["banana fruit", "eating banana", "healthy breakfast fruit"],
+      "engagement_text": "Do you eat banana in the morning? 🍌"
+    },
+    {
+      "title": "5 Indian Superfoods You Should Eat",
+      "hindi_script": "भारतीय खानपान में कुछ ऐसे सुपरफूड्स हैं जो आपकी सेहत के लिए बेहद फायदेमंद हैं। आंवला विटामिन सी से भरपूर होता है और इम्यूनिटी बढ़ाता है। हल्दी में एंटी-इंफ्लेमेटरी गुण होते हैं, दही पाचन के लिए अच्छा है, बादाम दिमाग के लिए फायदेमंद है, और पालक आयरन का बेहतरीन स्रोत है। इन पांच चीजों को अपनी रोजाना की डाइट में शामिल करने से आपकी सेहत में काफी सुधार आ सकता है। इनमें से आप कौन सी चीज पहले से खाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian superfood", "turmeric almond", "healthy indian ingredients"],
+      "engagement_text": "Which of these 5 superfoods do you already eat? 🌿"
+    },
+    {
+      "title": "Ghee - Good or Bad for Health",
+      "hindi_script": "देसी घी को लेकर लोगों में हमेशा कन्फ्यूजन रहता है कि यह सेहत के लिए अच्छा है या बुरा। सच यह है कि सही मात्रा में घी खाना आपकी सेहत के लिए फायदेमंद है। इसमें अच्छे फैट्स होते हैं जो पाचन में मदद करते हैं, जोड़ों को चिकनाई देते हैं, और शरीर को एनर्जी देते हैं। लेकिन ज्यादा मात्रा में खाने से वजन बढ़ सकता है, इसलिए दिन में एक से दो चम्मच घी काफी है। आप अपने खाने में घी कैसे इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["ghee indian cooking", "desi ghee", "indian kitchen"],
+      "engagement_text": "How do YOU use ghee in your cooking? 🧈"
+    },
+    {
+      "title": "Best Time to Eat Fruits",
+      "hindi_script": "फल खाने का सही समय जानना बहुत जरूरी है ताकि आपको उनका पूरा फायदा मिल सके। फल खाने का सबसे अच्छा समय सुबह या दोपहर के खाने से पहले माना जाता है, क्योंकि इस समय शरीर पोषक तत्वों को बेहतर तरीके से अवशोषित करता है। रात में फल खाने से बचना चाहिए क्योंकि इससे पाचन में समस्या हो सकती है। कोशिश करें कि खाना खाने से तीस मिनट पहले या दो घंटे बाद फल खाएं। आप दिन में किस समय फल खाना पसंद करते हैं? कमेंट में बताएं!",
+      "keywords": ["fresh fruits", "eating fruits", "healthy fruit bowl"],
+      "engagement_text": "What time of day do YOU eat fruits? 🍎"
     }
   ]
 }
