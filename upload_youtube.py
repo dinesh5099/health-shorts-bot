@@ -4,13 +4,19 @@ from googleapiclient.http import MediaFileUpload
 import os
 
 def get_authenticated_service():
+    client_id = os.environ.get("YOUTUBE_CLIENT_ID")
+    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET")
+    refresh_token = os.environ.get("YOUTUBE_REFRESH_TOKEN")
+    
     creds = Credentials(
         token=None,
-        refresh_token=os.environ.get("YOUTUBE_REFRESH_TOKEN"),
-        client_id=os.environ.get("YOUTUBE_CLIENT_ID"),
-        client_secret=os.environ.get("YOUTUBE_CLIENT_SECRET"),
-        token_uri="https://oauth2.googleapis.com/token"
+        refresh_token=refresh_token,
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=client_id,
+        client_secret=client_secret,
+        scopes=["https://www.googleapis.com/auth/youtube.upload"]
     )
+    
     return build("youtube", "v3", credentials=creds)
 
 def upload_video(video_path, title, description, tags=None, category_id="26"):
@@ -18,10 +24,10 @@ def upload_video(video_path, title, description, tags=None, category_id="26"):
     
     body = {
         "snippet": {
-            "title": title[:100],  # YouTube title limit
+            "title": title[:100],
             "description": description[:5000],
             "tags": tags or [],
-            "categoryId": category_id  # 26 = Howto & Style, good for health/fitness
+            "categoryId": category_id
         },
         "status": {
             "privacyStatus": "public",
@@ -47,6 +53,3 @@ def upload_video(video_path, title, description, tags=None, category_id="26"):
     print(f"Upload complete! Video ID: {video_id}")
     print(f"URL: https://youtube.com/shorts/{video_id}")
     return video_id
-
-if __name__ == "__main__":
-    upload_video("health_short.mp4", "Test Upload", "Test description", ["health", "fitness"])
