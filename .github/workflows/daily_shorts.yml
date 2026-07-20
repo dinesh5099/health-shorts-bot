@@ -2,39 +2,42 @@ name: Daily Health Shorts (3x Daily)
 
 on:
   schedule:
-    - cron: '0 1 * * *'    # 6:30 AM IST (1:00 AM UTC)
-    - cron: '30 7 * * *'   # 1:00 PM IST (7:30 AM UTC)
-    - cron: '30 14 * * *'  # 8:00 PM IST (2:30 PM UTC)
+    - cron: '0 1 * * *'
+    - cron: '30 7 * * *'
+    - cron: '30 14 * * *'
   workflow_dispatch:
 
 jobs:
   generate-and-upload:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install system dependencies
         run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu imagemagick
-      
+
       - name: Fix ImageMagick policy
         run: sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml
-      
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
-      
+
       - name: Run pipeline (generate + upload)
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM }}
+          ALERT_EMAIL_PASSWORD: ${{ secrets.ALERT_EMAIL_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python main.py
-      
+
       - name: Commit updated topic tracking
         run: |
           git config user.name "github-actions"
