@@ -35,19 +35,19 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     label_clip = TextClip(category_label, fontsize=50, color='#64C8FF', font='DejaVu-Sans-Bold')
     label_clip = label_clip.set_position(('center', 150)).set_duration(total_duration)
     
-    # Title shows for first 70% of video
-    title_duration = total_duration * 0.7
+    # Title shows for first 65% of video
+    title_duration = total_duration * 0.65
     title_clip = TextClip(title_text, fontsize=65, color='white', font='DejaVu-Sans-Bold', 
                           method='caption', size=(900, None), align='center')
-    title_clip = title_clip.set_position(('center', 700)).set_duration(title_duration).fx(fadein, 0.8)
+    title_clip = title_clip.set_position(('center', 700)).set_duration(title_duration).fx(fadein, 0.8).fx(fadeout, 0.5)
     
-    # Engagement question fades in during last 30% of video (while audio speaks the question)
-    question_start = total_duration * 0.65
+    # Engagement question starts AFTER title fully ends
+    question_start = title_duration + 0.2  # small gap buffer
     question_duration = total_duration - question_start
     question_clip = TextClip(engagement_text, fontsize=55, color='#FFD700', font='DejaVu-Sans-Bold',
                              method='caption', size=(900, None), align='center')
     question_clip = question_clip.set_position(('center', 700)).set_start(question_start).set_duration(question_duration)
-    question_clip = question_clip.fx(fadein, 0.5)
+    question_clip = question_clip.fx(fadein, 0.5) 
     
     brand_clip = TextClip("FitSehatzone", fontsize=45, color='#64C8FF', font='DejaVu-Sans-Bold')
     brand_clip = brand_clip.set_position(('center', 1750)).set_duration(total_duration)
