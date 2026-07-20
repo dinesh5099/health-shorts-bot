@@ -3,9 +3,11 @@ from moviepy.video.fx.fadein import fadein
 from moviepy.video.fx.fadeout import fadeout
 import os
 
-def create_branded_short(stock_clips, audio_path, title_text, category, output_path="health_short.mp4"):
+def create_branded_short(stock_clips, audio_path, title_text, category, engagement_question, output_path="health_short.mp4"):
     audio = AudioFileClip(audio_path)
-    total_duration = audio.duration
+    main_duration = audio.duration
+    outro_duration = 3.0  # 3 seconds for the question card
+    total_duration = main_duration + outro_duration
     
     if not stock_clips:
         raise ValueError("No stock clips provided")
@@ -33,17 +35,28 @@ def create_branded_short(stock_clips, audio_path, title_text, category, output_p
     
     category_label = "HEALTH TIP" if category == "tips_and_tricks" else "NUTRITION FACT"
     label_clip = TextClip(category_label, fontsize=50, color='#64C8FF', font='DejaVu-Sans-Bold')
-    label_clip = label_clip.set_position(('center', 150)).set_duration(total_duration)
+    label_clip = label_clip.set_position(('center', 150)).set_duration(main_duration)
     
     title_clip = TextClip(title_text, fontsize=65, color='white', font='DejaVu-Sans-Bold', 
                           method='caption', size=(900, None), align='center')
-    title_clip = title_clip.set_position('center').set_duration(total_duration).fx(fadein, 0.8)
+    title_clip = title_clip.set_position('center').set_duration(main_duration).fx(fadein, 0.8)
     
     brand_clip = TextClip("FitSehatzone", fontsize=45, color='#64C8FF', font='DejaVu-Sans-Bold')
     brand_clip = brand_clip.set_position(('center', 1750)).set_duration(total_duration)
     
-    # Logo overlay (top-left corner)
-    layers = [background, overlay, label_clip, title_clip, brand_clip]
+    # Engagement question - appears only during outro, with stronger overlay for readability
+    question_overlay = ColorClip(size=(1080, 1920), color=(0, 0, 0)).set_opacity(0.6)
+    question_overlay = question_overlay.set_start(main_duration).set_duration(outro_duration)
+    
+    question_clip = TextClip(engagement_question, fontsize=55, color='#FFD700', font='DejaVu-Sans-Bold',
+                             method='caption', size=(900, None), align='center')
+    question_clip = question_clip.set_position('center').set_start(main_duration).set_duration(outro_duration)
+    question_clip = question_clip.fx(fadein, 0.4)
+    
+    comment_prompt = TextClip("💬 Comment Below!", fontsize=45, color='white', font='DejaVu-Sans-Bold')
+    comment_prompt = comment_prompt.set_position(('center', 1200)).set_start(main_duration).set_duration(outro_duration)
+    
+    layers = [background, overlay, label_clip, title_clip, brand_clip, question_overlay, question_clip, comment_prompt]
     
     if os.path.exists("logo.png"):
         logo = ImageClip("logo.png").set_duration(total_duration)
@@ -52,7 +65,11 @@ def create_branded_short(stock_clips, audio_path, title_text, category, output_p
         layers.append(logo)
     
     final = CompositeVideoClip(layers)
-    final = final.set_audio(audio)
+    
+    # Extend audio with silence for the outro duration
+    silence = AudioClip(lambda t: 0, duration=outro_duration)
+    final_audio = concatenate_audioclips([audio, silence])
+    final = final.set_audio(final_audio)
     
     final.write_videofile(
         output_path,
