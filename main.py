@@ -10,18 +10,22 @@ def run_pipeline():
     print(f"   Category: {category}")
     print(f"   Title: {topic['title']}")
     
-    print("2. Fetching stock video clips...")
-    stock_clips = get_stock_clips(category, num_clips=3)
+    print("2. Fetching topic-specific stock video clips...")
+    stock_clips = get_stock_clips(topic['keywords'], num_clips=3)
     print(f"   Downloaded {len(stock_clips)} clips")
     
     print("3. Generating Hindi audio...")
     audio_path, voice_used = create_audio(topic['hindi_script'])
-    print(f"   Voice: {voice_used}")
     
-    print("4. Assembling branded short...")
-    video_path = create_branded_short(stock_clips, audio_path, topic['title'], category)
+    print("4. Assembling branded short with engagement outro...")
+    video_path = create_branded_short(
+        stock_clips, 
+        audio_path, 
+        topic['title'], 
+        category,
+        topic['engagement_question']
+    )
     
-    # Cleanup downloaded stock clips
     for clip in stock_clips:
         if os.path.exists(clip):
             os.remove(clip)
