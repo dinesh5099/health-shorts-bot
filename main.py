@@ -7,6 +7,7 @@ from upload_youtube import upload_video
 from check_topic_count import check_and_alert
 from send_alert import send_email
 import os
+import json
 import traceback
 
 def run_pipeline():
@@ -28,6 +29,15 @@ def run_pipeline():
     print("5. Generating metadata...")
     yt_title = generate_title(topic['title'])
     yt_description = generate_description(topic['title'], topic['engagement_text'], category)
+    
+    # Save metadata for the Instagram step (runs separately later)
+    with open('video_metadata.json', 'w', encoding='utf-8') as f:
+        json.dump({
+            "title": yt_title,
+            "description": yt_description,
+            "topic_title": topic['title'],
+            "engagement_text": topic['engagement_text']
+        }, f, ensure_ascii=False, indent=2)
     
     print("6. Uploading to YouTube...")
     video_id = upload_video(video_path, yt_title, yt_description, 
@@ -65,4 +75,4 @@ Please check the GitHub Actions logs for more details.
 - FitSehatZone Bot"""
         send_email(subject, body)
         
-        raise  # Re-raise so GitHub Actions still shows the run as failed
+        raise
