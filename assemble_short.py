@@ -1,6 +1,7 @@
 from moviepy.editor import *
 from moviepy.video.fx.fadein import fadein
 from moviepy.video.fx.fadeout import fadeout
+from create_circular_logo import create_circular_logo_with_ring
 import os
 
 def create_branded_short(stock_clips, audio_path, title_text, category, engagement_text, output_path="health_short.mp4"):
@@ -35,19 +36,17 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     label_clip = TextClip(category_label, fontsize=50, color='#64C8FF', font='DejaVu-Sans-Bold')
     label_clip = label_clip.set_position(('center', 150)).set_duration(total_duration)
     
-    # Title shows for first 65% of video
     title_duration = total_duration * 0.65
     title_clip = TextClip(title_text, fontsize=65, color='white', font='DejaVu-Sans-Bold', 
                           method='caption', size=(900, None), align='center')
     title_clip = title_clip.set_position(('center', 700)).set_duration(title_duration).fx(fadein, 0.8).fx(fadeout, 0.5)
     
-    # Engagement question starts AFTER title fully ends
-    question_start = title_duration + 0.2  # small gap buffer
+    question_start = title_duration + 0.2
     question_duration = total_duration - question_start
     question_clip = TextClip(engagement_text, fontsize=55, color='#FFD700', font='DejaVu-Sans-Bold',
                              method='caption', size=(900, None), align='center')
     question_clip = question_clip.set_position(('center', 700)).set_start(question_start).set_duration(question_duration)
-    question_clip = question_clip.fx(fadein, 0.5) 
+    question_clip = question_clip.fx(fadein, 0.5)
     
     brand_clip = TextClip("FitSehatzone", fontsize=45, color='#64C8FF', font='DejaVu-Sans-Bold')
     brand_clip = brand_clip.set_position(('center', 1750)).set_duration(total_duration)
@@ -55,9 +54,13 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     layers = [background, overlay, label_clip, title_clip, question_clip, brand_clip]
     
     if os.path.exists("logo.png"):
-        logo = ImageClip("logo.png").set_duration(total_duration)
-        logo = logo.resize(width=180)
-        logo = logo.set_position((40, 60))
+        ring_color = (100, 200, 255) if category == "tips_and_tricks" else (150, 255, 150)
+        circular_logo_path = create_circular_logo_with_ring(
+            "logo.png", "logo_circular.png", size=160, ring_color=ring_color
+        )
+        logo = ImageClip(circular_logo_path).set_duration(total_duration)
+        logo = logo.set_position((50, 80))
+        logo = logo.fx(fadein, 0.5)
         layers.append(logo)
     
     final = CompositeVideoClip(layers)
