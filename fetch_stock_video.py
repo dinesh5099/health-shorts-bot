@@ -3,7 +3,7 @@ import os
 
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY")
 
-def search_pexels_videos(query, per_page=3):
+def search_pexels_videos(query, per_page=5):
     url = "https://api.pexels.com/videos/search"
     headers = {"Authorization": PEXELS_API_KEY}
     params = {"query": query, "per_page": per_page, "orientation": "portrait"}
@@ -26,13 +26,13 @@ def download_video(url, output_path):
             f.write(chunk)
     return output_path
 
-def get_stock_clips(keywords, num_clips=3):
-    """Now takes topic-specific keywords instead of just category"""
+def get_stock_clips(keywords, num_clips=5):
+    """Increased default clips for faster-paced editing"""
     clip_paths = []
     
     for i in range(num_clips):
         keyword = keywords[i % len(keywords)]
-        urls = search_pexels_videos(keyword, per_page=2)
+        urls = search_pexels_videos(keyword, per_page=3)
         
         if urls:
             path = f"stock_clip_{i}.mp4"
@@ -42,5 +42,5 @@ def get_stock_clips(keywords, num_clips=3):
     return clip_paths
 
 if __name__ == "__main__":
-    clips = get_stock_clips(["yogurt curd", "curd bowl"])
-    print(f"Downloaded {len(clips)} clips: {clips}")
+    clips = get_stock_clips(["yoga", "meditation"])
+    print(f"Downloaded {len(clips)} clips")
