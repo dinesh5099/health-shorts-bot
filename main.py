@@ -16,7 +16,7 @@ def run_pipeline():
     print(f"   Title: {topic['title']}")
     
     print("2. Fetching stock clips...")
-    stock_clips = get_stock_clips(topic['keywords'], num_clips=3)
+    stock_clips = get_stock_clips(topic['keywords'], num_clips=5)
     
     print("3. Generating Hindi audio...")
     audio_path, voice_used = create_audio(topic['hindi_script'])
