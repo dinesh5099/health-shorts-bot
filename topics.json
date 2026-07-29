@@ -332,5 +332,422 @@
       "keywords": ["protein shake glass", "chicken eggs protein", "protein powder scoop", "indian girl protein shake", "indian girl drinking shake", "protein shake bottle", "indian girl fitness shake"],
       "engagement_text": "How much protein do YOU consume daily?"
     }
+  ],
+  "myth_vs_fact": [
+    {
+      "title": "Myth: Eating Late at Night Always Makes You Fat?",
+      "hindi_script": "बहुत लोग मानते हैं कि रात में देर से खाना खाने से वजन बढ़ता है, लेकिन यह पूरी तरह सच नहीं है। वजन बढ़ने का मुख्य कारण है दिनभर में ली गई कुल कैलोरी, न कि खाने का समय। हालांकि, रात में देर से खाना पाचन को प्रभावित कर सकता है और नींद खराब कर सकता है। असली समस्या समय नहीं, बल्कि क्या और कितना खाया जा रहा है, यह है। आपको क्या लगता है, क्या यह मिथ है या फैक्ट? कमेंट में बताएं!",
+      "keywords": ["indian girl eating dinner", "clock night dinner", "night meal food", "indian girl night eating", "dinner plate clock", "indian girl late dinner", "night food table"],
+      "engagement_text": "Myth or Fact - what do YOU believe?"
+    },
+    {
+      "title": "Myth: You Must Drink 8 Glasses of Water Daily?",
+      "hindi_script": "आठ गिलास पानी पीने का नियम एक सामान्य गाइडलाइन है, लेकिन यह हर व्यक्ति के लिए एक जैसा नहीं है। पानी की जरूरत आपके वजन, गतिविधि के स्तर, और मौसम पर निर्भर करती है। कुछ लोगों को ज्यादा पानी की जरूरत होती है, कुछ को कम। सबसे अच्छा तरीका है अपने शरीर की प्यास को सुनना और यूरिन के रंग पर ध्यान देना। क्या आप आठ गिलास पानी पीने की कोशिश करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking water", "water glasses table", "indian girl water bottle", "glass water counting", "indian girl hydration", "water glasses row", "indian girl holding water"],
+      "engagement_text": "Do YOU count your glasses of water?"
+    },
+    {
+      "title": "Myth: Cracking Your Back Causes Arthritis?",
+      "hindi_script": "बहुत लोग सोचते हैं कि पीठ चटकाने से गठिया हो जाता है, लेकिन इसका कोई वैज्ञानिक प्रमाण नहीं है। पीठ चटकाने से जोड़ों के बीच की गैस के बुलबुले फटते हैं, जिससे आवाज आती है। यह सामान्य है और नुकसानदायक नहीं है, जब तक दर्द न हो। हालांकि, बार-बार जोर से चटकाना अच्छी आदत नहीं मानी जाती। क्या आप अपनी पीठ चटकाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl back stretch", "person back pain", "indian girl stretching back", "back stretch exercise", "indian girl spine stretch", "person stretching body", "indian girl body stretch"],
+      "engagement_text": "Do YOU crack your back?"
+    },
+    {
+      "title": "Myth: Fat-Free Foods Are Always Healthier?",
+      "hindi_script": "फैट-फ्री लिखे प्रोडक्ट्स हमेशा हेल्दी नहीं होते। कई बार कंपनियां फैट कम करने के लिए ज्यादा चीनी या आर्टिफिशियल तत्व मिला देती हैं, जो सेहत के लिए और भी हानिकारक हो सकते हैं। कुछ हेल्दी फैट्स, जैसे नट्स और एवोकाडो में मौजूद फैट, शरीर के लिए जरूरी होते हैं। लेबल पढ़ना और पूरी जानकारी देखना जरूरी है, सिर्फ फैट-फ्री लिखा देखकर मत खरीदें। आप लेबल पढ़ते हैं खरीदने से पहले? कमेंट में बताएं!",
+      "keywords": ["indian girl grocery shopping", "food label reading", "indian girl reading label", "grocery store products", "indian girl supermarket", "food package label", "indian girl checking food"],
+      "engagement_text": "Do YOU read food labels before buying?"
+    },
+    {
+      "title": "Myth: Skipping Meals Helps You Lose Weight Faster?",
+      "hindi_script": "खाना छोड़ना वजन घटाने का सही तरीका नहीं है। जब आप खाना स्किप करते हैं, तो शरीर का मेटाबॉलिज्म धीमा हो जाता है और बाद में आप ज्यादा खा सकते हैं। इससे लंबे समय में वजन कम होने के बजाय बढ़ भी सकता है। सही तरीका है नियमित, संतुलित भोजन करना, न कि खाना पूरी तरह छोड़ देना। क्या आप कभी वजन घटाने के लिए खाना स्किप करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl skipping meal", "empty plate table", "indian girl not eating", "indian girl hungry", "empty plate food", "indian girl weight loss", "indian girl diet food"],
+      "engagement_text": "Have YOU ever skipped meals to lose weight?"
+    },
+    {
+      "title": "Myth: Sweating More Means You're Burning More Fat?",
+      "hindi_script": "ज्यादा पसीना आना जरूरी नहीं कि ज्यादा फैट बर्न होने का संकेत हो। पसीना आना शरीर के तापमान को नियंत्रित करने का तरीका है, न कि फैट बर्न होने का सीधा प्रमाण। कुछ लोगों को कम एक्सरसाइज में भी ज्यादा पसीना आता है, जबकि कुछ को ज्यादा मेहनत करने पर भी कम। असली फैट बर्न वर्कआउट की इंटेंसिटी और अवधि पर निर्भर करता है, पसीने पर नहीं। आप एक्सरसाइज के दौरान कितना पसीना बहाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl workout sweat", "indian girl exercising gym", "workout sweat towel", "indian girl fitness workout", "gym workout sweating", "indian girl gym exercise", "fitness sweat exercise"],
+      "engagement_text": "How much do YOU sweat during workouts?"
+    },
+    {
+      "title": "Myth: You Should Never Eat Carbs to Lose Weight?",
+      "hindi_script": "कार्ब्स पूरी तरह छोड़ना वजन घटाने का सही तरीका नहीं है। शरीर को एनर्जी के लिए कार्बोहाइड्रेट्स की जरूरत होती है। असली समस्या रिफाइंड कार्ब्स, जैसे सफेद ब्रेड और मीठी चीजें, ज्यादा खाने से होती है। साबुत अनाज, ब्राउन राइस, और ओट्स जैसे हेल्दी कार्ब्स सही मात्रा में खाना फायदेमंद है। क्या आप कार्ब्स से डरते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl eating rice", "whole grain bread bowl", "indian girl healthy carbs", "brown rice bowl", "indian girl oats food", "whole wheat grains", "indian girl grain food"],
+      "engagement_text": "Are YOU afraid of eating carbs?"
+    },
+    {
+      "title": "Myth: Detox Teas and Juices Clean Your Liver?",
+      "hindi_script": "डिटॉक्स टी और जूस लीवर को साफ करने का दावा करते हैं, लेकिन यह पूरी तरह सच नहीं है। आपका लीवर और किडनी खुद ही शरीर से विषाक्त पदार्थों को बाहर निकालने का काम करते हैं, बिना किसी स्पेशल डिटॉक्स प्रोडक्ट के। असली डिटॉक्स है पर्याप्त पानी पीना, संतुलित आहार लेना, और अच्छी नींद लेना। क्या आपने कभी डिटॉक्स टी ट्राई की है? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking tea", "detox juice glass", "indian girl herbal tea", "green juice glass", "indian girl healthy juice", "detox drink bottle", "indian girl juice cleanse"],
+      "engagement_text": "Have YOU ever tried detox tea?"
+    },
+    {
+      "title": "Myth: Eating Eggs Increases Bad Cholesterol Dangerously?",
+      "hindi_script": "अंडे खाने से खराब कोलेस्ट्रॉल बहुत बढ़ता है, यह धारणा पुरानी और गलत मानी जाती है। नई रिसर्च बताती है कि ज्यादातर स्वस्थ लोगों के लिए रोजाना एक या दो अंडे खाना सुरक्षित है। शरीर खुद कोलेस्ट्रॉल बनाता है, और डाइट से मिलने वाला कोलेस्ट्रॉल उतना प्रभाव नहीं डालता जितना पहले माना जाता था। हार्ट पेशेंट्स को फिर भी डॉक्टर से सलाह लेनी चाहिए। आप रोजाना अंडे खाने से डरते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl eating eggs", "boiled eggs plate", "indian girl cooking eggs", "eggs breakfast bowl", "indian girl egg breakfast", "eggs kitchen table", "indian girl protein eggs"],
+      "engagement_text": "Are YOU worried about eating eggs daily?"
+    },
+    {
+      "title": "Myth: All Bacteria Are Bad for Your Health?",
+      "hindi_script": "सभी बैक्टीरिया हानिकारक नहीं होते। हमारे शरीर में, खासकर आंतों में, लाखों गुड बैक्टीरिया रहते हैं जो पाचन में मदद करते हैं और इम्यूनिटी बढ़ाते हैं। दही, अचार, और फर्मेंटेड फूड्स में मौजूद प्रोबायोटिक्स गुड बैक्टीरिया का अच्छा स्रोत हैं। जरूरत से ज्यादा साफ-सफाई या एंटीबायोटिक्स का इस्तेमाल गुड बैक्टीरिया को भी नुकसान पहुंचा सकता है। क्या आप प्रोबायोटिक फूड्स खाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl eating curd", "fermented food bowl", "indian girl probiotic food", "yogurt bowl healthy", "indian girl pickle food", "gut health food", "indian girl healthy gut"],
+      "engagement_text": "Do YOU eat probiotic foods regularly?"
+    },
+    {
+      "title": "Myth: Drinking Coffee Stunts Your Growth?",
+      "hindi_script": "कॉफी पीने से हाइट रुक जाती है, यह एक बहुत पुरानी और गलत धारणा है। इसका कोई वैज्ञानिक प्रमाण नहीं है कि कैफीन ग्रोथ को रोकता है। हाइट मुख्य रूप से जेनेटिक्स, न्यूट्रिशन, और नींद पर निर्भर करती है। हालांकि, बच्चों और टीनएजर्स में ज्यादा कैफीन नींद खराब कर सकता है, जो इनडायरेक्टली ग्रोथ को प्रभावित कर सकता है। आपने यह मिथ सुना है क्या? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking coffee", "coffee cup table", "indian girl coffee cup", "hot coffee mug", "indian girl morning coffee", "coffee mug hands", "indian girl holding coffee"],
+      "engagement_text": "Have YOU heard this myth before?"
+    },
+    {
+      "title": "Myth: You Need Protein Shakes to Build Muscle?",
+      "hindi_script": "मसल्स बनाने के लिए प्रोटीन शेक जरूरी नहीं है। असली जरूरत है पर्याप्त प्रोटीन, जो आप दाल, पनीर, अंडे, चिकन जैसी नॉर्मल फूड से भी पूरा कर सकते हैं। प्रोटीन शेक सिर्फ एक आसान सप्लीमेंट है, जरूरी विकल्प नहीं। सही डाइट और नियमित एक्सरसाइज से बिना शेक के भी मसल्स बनाए जा सकते हैं। क्या आप प्रोटीन शेक इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl protein shake", "protein shake bottle", "indian girl gym fitness", "indian girl workout drink", "protein powder scoop", "indian girl fitness shake", "gym protein drink"],
+      "engagement_text": "Do YOU use protein shakes?"
+    },
+    {
+      "title": "Myth: Natural Sugar Is Always Better Than Refined Sugar?",
+      "hindi_script": "नेचुरल शुगर, जैसे फलों में मौजूद शुगर, हमेशा रिफाइंड शुगर से बेहतर नहीं होती जब बात कैलोरी की हो। हालांकि, फलों में फाइबर और विटामिन्स भी होते हैं, जो एक्स्ट्रा फायदा देते हैं। लेकिन फ्रूट जूस या ज्यादा मात्रा में फल खाने से भी शुगर लेवल बढ़ सकता है। संतुलन में खाना, चाहे नेचुरल हो या रिफाइंड, हमेशा जरूरी है। आप नेचुरल शुगर को कितना सुरक्षित मानते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl eating fruit", "fresh fruits sugar", "indian girl fruit juice", "natural sugar fruits", "indian girl fruit bowl", "fruit juice glass", "indian girl sweet fruit"],
+      "engagement_text": "Do YOU think natural sugar is always safer?"
+    },
+    {
+      "title": "Myth: You Should Avoid All Fats to Stay Healthy?",
+      "hindi_script": "सभी फैट्स को अवॉइड करना सेहत के लिए सही नहीं है। शरीर को हेल्दी फैट्स की जरूरत होती है, जैसे नट्स, एवोकाडो, और मछली में मौजूद फैट्स, जो दिल और दिमाग के लिए फायदेमंद हैं। असली समस्या ट्रांस फैट्स और ज्यादा प्रोसेस्ड फूड्स में मौजूद अनहेल्दी फैट्स से है। हेल्दी फैट्स को सही मात्रा में खाना जरूरी है, पूरी तरह अवॉइड करना नहीं। आप फैट्स को कितना अवॉइड करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl eating nuts", "avocado healthy fat", "indian girl healthy fats", "nuts bowl healthy", "indian girl avocado food", "healthy fat food", "indian girl nutritious food"],
+      "engagement_text": "Do YOU avoid fats in your diet?"
+    },
+    {
+      "title": "Myth: Herbal Supplements Are Always Safe Because They're Natural?",
+      "hindi_script": "नेचुरल होने का मतलब हमेशा सुरक्षित होना नहीं है। कई हर्बल सप्लीमेंट्स दवाओं के साथ रिएक्ट कर सकते हैं या साइड इफेक्ट्स पैदा कर सकते हैं। कोई भी सप्लीमेंट लेने से पहले डॉक्टर से सलाह लेना जरूरी है, चाहे वह कितना भी नेचुरल क्यों न हो। बिना जांच के कोई भी सप्लीमेंट लेना खतरनाक हो सकता है। क्या आप सप्लीमेंट लेने से पहले डॉक्टर से पूछते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl supplements bottle", "herbal medicine bottle", "indian girl vitamin pills", "supplement capsules bottle", "indian girl medicine bottle", "herbal capsules table", "indian girl health supplements"],
+      "engagement_text": "Do YOU consult a doctor before taking supplements?"
+    },
+    {
+      "title": "Myth: You Lose Most Body Heat Through Your Head?",
+      "hindi_script": "यह धारणा गलत है कि शरीर की सबसे ज्यादा गर्मी सिर से निकलती है। सिर से गर्मी उतनी ही निकलती है जितनी शरीर के किसी और खुले हिस्से से, जैसे हाथ या पैर। यह मिथ पुरानी आर्मी रिसर्च से आया था, जो सही तरीके से नहीं की गई थी। सर्दियों में पूरे शरीर को ढकना जरूरी है, सिर्फ सिर को नहीं। क्या आपने यह मिथ पहले सुना है? कमेंट में बताएं!",
+      "keywords": ["indian girl winter clothes", "person cold weather", "indian girl cap winter", "winter clothing cold", "indian girl warm clothes", "cold weather person", "indian girl winter jacket"],
+      "engagement_text": "Have YOU heard this myth before?"
+    },
+    {
+      "title": "Myth: Organic Food Is Always More Nutritious?",
+      "hindi_script": "ऑर्गेनिक फूड हमेशा ज्यादा न्यूट्रिशियस नहीं होता, हालांकि इसमें कम पेस्टिसाइड्स हो सकते हैं। रिसर्च बताती है कि ऑर्गेनिक और नॉन-ऑर्गेनिक फूड में विटामिन और मिनरल की मात्रा लगभग बराबर होती है। ऑर्गेनिक चुनना पर्सनल चॉइस और बजट पर निर्भर करता है, लेकिन नॉन-ऑर्गेनिक फूड भी सेहत के लिए ठीक है अगर अच्छे से धोया जाए। आप ऑर्गेनिक फूड खरीदते हैं क्या? कमेंट में बताएं!",
+      "keywords": ["indian girl vegetables market", "organic vegetables fresh", "indian girl grocery vegetables", "fresh vegetables basket", "indian girl farmers market", "vegetable market fresh", "indian girl buying vegetables"],
+      "engagement_text": "Do YOU prefer buying organic food?"
+    },
+    {
+      "title": "Myth: Stretching Before Exercise Prevents All Injuries?",
+      "hindi_script": "एक्सरसाइज से पहले स्ट्रेचिंग करना अच्छी आदत है, लेकिन यह सभी चोटों को पूरी तरह रोक नहीं सकता। स्टैटिक स्ट्रेचिंग की जगह डायनामिक वार्मअप, जैसे हल्की जॉगिंग या जंपिंग जैक्स, चोट से बचाव में ज्यादा असरदार माने जाते हैं। स्ट्रेचिंग मसल्स को तैयार करने में मदद करती है, लेकिन सही टेक्निक और धीरे-धीरे इंटेंसिटी बढ़ाना भी जरूरी है। आप एक्सरसाइज से पहले क्या करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl warm up exercise", "indian girl stretching gym", "warm up exercise stretch", "indian girl gym stretching", "stretching before workout", "indian girl fitness warmup", "gym warmup exercise"],
+      "engagement_text": "What do YOU do before exercising?"
+    },
+    {
+      "title": "Myth: Reading in Dim Light Damages Your Eyes Permanently?",
+      "hindi_script": "कम रोशनी में पढ़ने से आंखों को स्थायी नुकसान होता है, यह पूरी तरह सच नहीं है। कम रोशनी में पढ़ने से आंखों पर ज्यादा दबाव पड़ सकता है, जिससे थकान और सिरदर्द हो सकता है, लेकिन यह परमानेंट डैमेज नहीं करता। हालांकि, अच्छी रोशनी में पढ़ना आंखों के लिए ज्यादा आरामदायक और बेहतर होता है। क्या आप अक्सर कम रोशनी में पढ़ते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl reading book", "dim light reading", "indian girl reading dark", "book reading lamp", "indian girl studying night", "reading light book", "indian girl night reading"],
+      "engagement_text": "Do YOU often read in dim light?"
+    },
+    {
+      "title": "Myth: You Need to Detox After Every Festival or Holiday?",
+      "hindi_script": "त्योहार या छुट्टियों के बाद स्पेशल डिटॉक्स की जरूरत नहीं होती। ज्यादा खाने के बाद शरीर खुद संतुलन बना लेता है, बस आपको सामान्य, संतुलित खाने पर वापस आना होता है। स्पेशल डिटॉक्स डाइट या जूस क्लींज की जरूरत नहीं, बल्कि पानी पीना, हल्का खाना, और नियमित एक्सरसाइज काफी है। क्या आप त्योहार के बाद डिटॉक्स करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl festival food", "indian girl healthy meal", "indian festival sweets", "indian girl balanced diet", "festival food table", "indian girl post festival", "healthy indian food"],
+      "engagement_text": "Do YOU detox after festivals?"
+    }
+  ],
+  "home_remedies": [
+    {
+      "title": "Home Remedy for Sore Throat",
+      "hindi_script": "गले में खराश होने पर गुनगुने पानी में नमक डालकर गरारे करना एक असरदार घरेलू उपाय है। यह गले की सूजन कम करता है और बैक्टीरिया को खत्म करने में मदद करता है। शहद और अदरक की चाय पीना भी गले को आराम देता है। दिन में दो से तीन बार गरारे करें और गुनगुना पानी पीते रहें। क्या आपने कभी यह उपाय ट्राई किया है? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking tea", "warm water salt", "indian girl ginger tea", "honey ginger remedy", "indian girl throat remedy", "hot tea cup", "indian girl home remedy"],
+      "engagement_text": "Have YOU tried this remedy before?"
+    },
+    {
+      "title": "Natural Remedy for Better Sleep",
+      "hindi_script": "अगर आपको सोने में परेशानी होती है, तो सोने से पहले गुनगुना दूध पीना एक पुराना और असरदार उपाय है। इसमें मौजूद ट्रिप्टोफैन नींद लाने वाले हार्मोन को बढ़ाता है। इसके अलावा, कैमोमाइल चाय पीना और कमरे में हल्की खुशबू, जैसे लैवेंडर, भी नींद बेहतर बनाने में मदद करती है। क्या आप सोने से पहले कोई घरेलू उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl warm milk", "milk glass night", "indian girl bedtime drink", "chamomile tea cup", "indian girl sleeping remedy", "night drink glass", "indian girl relaxing bedtime"],
+      "engagement_text": "Do YOU use any remedy for better sleep?"
+    },
+    {
+      "title": "Home Remedy for Indigestion",
+      "hindi_script": "खाने के बाद पेट में भारीपन या अपच होने पर अजवाइन और काला नमक का मिश्रण एक असरदार घरेलू उपाय है। यह पाचन एंजाइम्स को एक्टिवेट करता है और गैस की समस्या को कम करता है। गुनगुने पानी के साथ यह मिश्रण लेना ज्यादा असरदार होता है। इसके अलावा, सौंफ चबाना भी पाचन में मदद करता है। आप अपच के लिए क्या उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl stomach pain", "ajwain spice bowl", "indian girl digestive remedy", "fennel seeds bowl", "indian girl kitchen spices", "spices bowl indian", "indian girl home remedy kitchen"],
+      "engagement_text": "What remedy do YOU use for indigestion?"
+    },
+    {
+      "title": "Natural Remedy for Common Cold",
+      "hindi_script": "सर्दी-खांसी होने पर हल्दी वाला गर्म दूध पीना एक बहुत पुराना और असरदार घरेलू उपाय है। हल्दी में मौजूद करक्यूमिन इम्यूनिटी बढ़ाता है और सूजन कम करता है। इसके अलावा, अदरक और तुलसी की चाय भी सर्दी में आराम देती है। भाप लेना भी नाक बंद होने की समस्या में मदद करता है। क्या आप सर्दी में यह उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl turmeric milk", "ginger tulsi tea", "indian girl hot tea cold", "steam inhale remedy", "indian girl sick remedy", "turmeric spice bowl", "indian girl warm drink"],
+      "engagement_text": "Do YOU use this remedy when you catch a cold?"
+    },
+    {
+      "title": "Home Remedy for Headache Relief",
+      "hindi_script": "सिरदर्द होने पर पुदीने का तेल माथे पर लगाना एक असरदार घरेलू उपाय है। इसकी ठंडक सिर की मांसपेशियों को रिलैक्स करती है। इसके अलावा, अदरक की चाय पीना और पर्याप्त पानी पीना भी सिरदर्द कम करने में मदद करता है। कई बार डिहाइड्रेशन भी सिरदर्द का कारण होता है। आप सिरदर्द के लिए क्या उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl headache pain", "peppermint oil bottle", "indian girl head pain", "ginger tea cup", "indian girl massage head", "essential oil bottle", "indian girl relief headache"],
+      "engagement_text": "What do YOU do for headache relief?"
+    },
+    {
+      "title": "Natural Remedy for Acidity",
+      "hindi_script": "एसिडिटी होने पर ठंडा दूध पीना तुरंत आराम देता है क्योंकि यह पेट के एसिड को न्यूट्रलाइज करता है। इसके अलावा, जीरा पानी पीना भी पाचन में मदद करता है और एसिडिटी कम करता है। मसालेदार और तेल वाला खाना कम खाने से भी यह समस्या नियंत्रित रहती है। आप एसिडिटी के लिए कौन सा घरेलू उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl cold milk", "cumin water glass", "indian girl stomach relief", "jeera water bowl", "indian girl acidity remedy", "milk glass cold", "indian girl digestive drink"],
+      "engagement_text": "What's YOUR go-to remedy for acidity?"
+    },
+    {
+      "title": "Home Remedy for Dry Cough",
+      "hindi_script": "सूखी खांसी होने पर शहद और नींबू का मिश्रण एक असरदार घरेलू उपाय है। शहद गले को आराम देता है और नींबू में मौजूद विटामिन सी इम्यूनिटी बढ़ाता है। गुनगुने पानी के साथ यह मिश्रण लेना ज्यादा फायदेमंद होता है। रात में सोने से पहले इसे लेने से खांसी में आराम मिलता है। क्या आप यह उपाय जानते थे? कमेंट में बताएं!",
+      "keywords": ["indian girl honey lemon", "honey jar spoon", "indian girl cough remedy", "lemon honey drink", "indian girl warm water drink", "honey lemon glass", "indian girl throat care"],
+      "engagement_text": "Did YOU know about this remedy?"
+    },
+    {
+      "title": "Natural Remedy for Constipation",
+      "hindi_script": "कब्ज की समस्या होने पर सुबह खाली पेट गुनगुना पानी पीना एक सरल और असरदार उपाय है। इसके अलावा, रात को सोने से पहले भीगे हुए अंजीर या मुनक्का खाना भी पेट साफ करने में मदद करता है। फाइबर से भरपूर फल और सब्जियां खाना भी कब्ज से बचाव में मदद करता है। आप कब्ज के लिए क्या घरेलू उपाय अपनाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl warm water morning", "dried figs raisins", "indian girl digestive health", "fiber fruits bowl", "indian girl healthy morning", "figs bowl dried", "indian girl morning routine"],
+      "engagement_text": "What remedy works best for YOU?"
+    },
+    {
+      "title": "Home Remedy for Skin Rashes",
+      "hindi_script": "त्वचा पर रैशेज या खुजली होने पर एलोवेरा जेल लगाना एक बहुत असरदार प्राकृतिक उपाय है। यह त्वचा को ठंडक देता है और सूजन कम करता है। इसके अलावा, नारियल तेल लगाना भी त्वचा को नमी देने में मदद करता है। हालांकि, गंभीर रैशेज होने पर डॉक्टर से सलाह लेना जरूरी है। क्या आप एलोवेरा का इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl aloe vera", "aloe vera plant gel", "indian girl skincare natural", "coconut oil bottle", "indian girl applying gel", "natural skincare aloe", "indian girl skin care"],
+      "engagement_text": "Do YOU use aloe vera for skin issues?"
+    },
+    {
+      "title": "Natural Remedy for Minor Burns",
+      "hindi_script": "किचन में हल्की जलन होने पर तुरंत ठंडे पानी के नीचे उस जगह को रखना पहला कदम होना चाहिए। इसके बाद एलोवेरा जेल या शहद लगाना जलन को कम करने में मदद करता है। बर्फ सीधे त्वचा पर न लगाएं, इससे नुकसान हो सकता है। गंभीर जलन होने पर तुरंत डॉक्टर से मिलें। आप जलने पर क्या करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl kitchen cooking", "aloe vera gel jar", "indian girl kitchen safety", "honey jar remedy", "indian girl cooking kitchen", "cold water hand", "indian girl kitchen burn"],
+      "engagement_text": "What do YOU do for minor burns?"
+    },
+    {
+      "title": "Home Remedy for Puffy Eyes",
+      "hindi_script": "सूजी हुई आंखों के लिए ठंडे चम्मच या खीरे के टुकड़े आंखों पर रखना एक असरदार उपाय है। इससे सूजन कम होती है और आंखों को ठंडक मिलती है। इसके अलावा, पर्याप्त पानी पीना और अच्छी नींद लेना भी आंखों की सूजन रोकने में मदद करता है। क्या आप यह उपाय आजमाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl cucumber eyes", "cucumber slices face", "indian girl skincare eyes", "cold spoon eyes", "indian girl morning skincare", "cucumber slice fresh", "indian girl eye care"],
+      "engagement_text": "Have YOU tried this remedy for puffy eyes?"
+    },
+    {
+      "title": "Natural Remedy for Bad Breath",
+      "hindi_script": "मुंह से बदबू आने की समस्या में सौंफ या इलायची चबाना एक आसान और असरदार उपाय है। यह मुंह को तुरंत फ्रेश करता है और पाचन में भी मदद करता है। इसके अलावा, पर्याप्त पानी पीना और जीभ को अच्छे से साफ करना भी जरूरी है। खाने के बाद यह आदतें अपनाना फायदेमंद है। आप बैड ब्रेथ के लिए क्या करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl fennel seeds", "cardamom seeds bowl", "indian girl mouth freshener", "fennel bowl spice", "indian girl oral care", "spices seeds bowl", "indian girl fresh breath"],
+      "engagement_text": "What's YOUR trick for fresh breath?"
+    },
+    {
+      "title": "Home Remedy for Muscle Cramps",
+      "hindi_script": "मसल्स क्रैम्प होने पर हल्की स्ट्रेचिंग और मसाज करना तुरंत आराम देता है। इसके अलावा, गुनगुने पानी से नहाना और पर्याप्त पानी पीना भी क्रैम्प्स को रोकने में मदद करता है। कई बार पोटेशियम और मैग्नीशियम की कमी से भी क्रैम्प्स होते हैं, इसलिए केला और नट्स खाना फायदेमंद है। आपको कभी मसल्स क्रैम्प हुए हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl leg stretch", "muscle massage leg", "indian girl stretching leg", "warm water bath", "indian girl massage cramps", "banana potassium food", "indian girl leg pain"],
+      "engagement_text": "Have YOU experienced muscle cramps?"
+    },
+    {
+      "title": "Natural Remedy for Dark Circles",
+      "hindi_script": "डार्क सर्कल्स कम करने के लिए ठंडे टी बैग्स आंखों पर रखना एक पुराना और असरदार घरेलू उपाय है। इसमें मौजूद कैफीन और एंटीऑक्सीडेंट सूजन और डार्कनेस को कम करते हैं। इसके अलावा, पर्याप्त नींद लेना और पानी पीना भी बहुत जरूरी है। बादाम तेल की मसाज भी फायदेमंद मानी जाती है। आप डार्क सर्कल्स के लिए क्या उपाय करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl tea bags eyes", "cold tea bags", "indian girl skincare morning", "almond oil bottle", "indian girl eye care beauty", "tea bag remedy", "indian girl dark circles"],
+      "engagement_text": "What's YOUR remedy for dark circles?"
+    },
+    {
+      "title": "Home Remedy for Chapped Lips",
+      "hindi_script": "फटे हुए होंठों के लिए नारियल तेल या घी लगाना एक बहुत असरदार प्राकृतिक उपाय है। यह होंठों को गहराई से नमी देता है। इसके अलावा, चीनी और शहद का स्क्रब बनाकर हल्के हाथों से होंठों पर लगाना डेड स्किन हटाने में मदद करता है। पर्याप्त पानी पीना भी जरूरी है। आप सर्दियों में होंठों की देखभाल कैसे करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl applying lip balm", "coconut oil jar", "indian girl lip care", "honey sugar scrub", "indian girl winter skincare", "lip balm application", "indian girl chapped lips"],
+      "engagement_text": "How do YOU take care of chapped lips?"
+    },
+    {
+      "title": "Natural Remedy for Stress Relief",
+      "hindi_script": "तनाव कम करने के लिए तुलसी की चाय पीना एक असरदार आयुर्वेदिक उपाय है। तुलसी में मौजूद तत्व दिमाग को शांत करते हैं और कॉर्टिसोल हार्मोन को कम करते हैं। इसके अलावा, गहरी सांस लेना और थोड़ी देर प्रकृति में समय बिताना भी तनाव कम करने में मदद करता है। आप तनाव कम करने के लिए क्या करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl tulsi tea", "holy basil leaves", "indian girl herbal tea calm", "tulsi plant leaves", "indian girl relaxing tea", "herbal tea cup", "indian girl stress relief"],
+      "engagement_text": "What helps YOU relieve stress naturally?"
+    },
+    {
+      "title": "Home Remedy for Hiccups",
+      "hindi_script": "हिचकी रोकने के लिए धीरे-धीरे गुनगुना पानी पीना एक आसान और तुरंत असर करने वाला उपाय है। इसके अलावा, कुछ सेकंड के लिए सांस रोकना भी हिचकी रोकने में मदद करता है। शहद की एक चुस्की लेना भी असरदार माना जाता है। क्या आप हिचकी के लिए कोई खास ट्रिक इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking water slowly", "water glass sip", "indian girl holding breath", "honey spoon jar", "indian girl water remedy", "warm water glass", "indian girl hiccup remedy"],
+      "engagement_text": "What's YOUR trick to stop hiccups?"
+    }
+  ],
+  "quick_facts": [
+    {
+      "title": "Did You Know Your Heart Beats 100000 Times a Day?",
+      "hindi_script": "क्या आप जानते हैं कि आपका दिल एक दिन में लगभग एक लाख बार धड़कता है? यह बिना रुके, बिना थके, आपके पूरे शरीर में खून पंप करता रहता है। एक स्वस्थ दिल के लिए नियमित एक्सरसाइज, संतुलित आहार, और तनाव कम रखना बहुत जरूरी है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl heart health", "heart beat exercise", "indian girl fitness heart", "indian girl exercising cardio", "healthy heart concept", "indian girl running exercise", "indian girl cardio workout"],
+      "engagement_text": "Did YOU know this fact already?"
+    },
+    {
+      "title": "Did You Know Your Body Produces 1.5 Liters of Saliva Daily?",
+      "hindi_script": "क्या आप जानते हैं कि आपका शरीर रोजाना लगभग एक से डेढ़ लीटर सलाइवा बनाता है? यह खाना पचाने में मदद करता है और मुंह को बैक्टीरिया से बचाता है। पर्याप्त पानी पीना सलाइवा प्रोडक्शन को सही रखने में मदद करता है। यह फैक्ट सुनकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking water", "indian girl smiling face", "water glass health", "indian girl healthy smile", "indian girl water hydration", "glass water drinking", "indian girl fresh face"],
+      "engagement_text": "Did this fact surprise YOU?"
+    },
+    {
+      "title": "Did You Know Laughing Burns Calories?",
+      "hindi_script": "क्या आप जानते हैं कि हंसने से भी कैलोरी बर्न होती है? दस से पंद्रह मिनट जोर से हंसने से लगभग चालीस कैलोरी बर्न हो सकती है। इसके अलावा हंसना दिल की सेहत और मूड के लिए भी बहुत फायदेमंद है। यह एक फ्री और आसान तरीका है खुश रहने का। आपको यह फैक्ट पता था क्या? कमेंट में बताएं!",
+      "keywords": ["indian girls laughing happy", "indian girl laughing joy", "friends laughing together", "indian girl smiling happy", "happy laughing moment", "indian girl cheerful laugh", "girls happy laughing"],
+      "engagement_text": "Did YOU know laughing burns calories?"
+    },
+    {
+      "title": "Did You Know Your Skin Is Your Largest Organ?",
+      "hindi_script": "क्या आप जानते हैं कि त्वचा आपके शरीर का सबसे बड़ा अंग है? यह शरीर को बाहरी नुकसान से बचाती है और तापमान नियंत्रित करने में मदद करती है। त्वचा की देखभाल करना, जैसे सनस्क्रीन लगाना और पर्याप्त पानी पीना, बहुत जरूरी है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl skincare routine", "indian girl applying cream", "skincare products table", "indian girl healthy skin", "indian girl face care", "skincare bottle cream", "indian girl beauty routine"],
+      "engagement_text": "Did YOU know this about your skin?"
+    },
+    {
+      "title": "Did You Know Dehydration Affects Your Brain First?",
+      "hindi_script": "क्या आप जानते हैं कि शरीर में हल्की सी भी पानी की कमी होने पर सबसे पहले असर दिमाग पर पड़ता है? इससे ध्यान लगाने में मुश्किल, सिरदर्द, और थकान महसूस हो सकती है। सिर्फ दो प्रतिशत डिहाइड्रेशन भी आपकी मेंटल परफॉर्मेंस को कम कर सकता है। इसलिए दिनभर पानी पीते रहना जरूरी है। यह फैक्ट जानकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking water", "indian girl headache tired", "water bottle hand", "indian girl focus studying", "indian girl thinking concentration", "water glass desk", "indian girl brain focus"],
+      "engagement_text": "Did this fact surprise YOU?"
+    },
+    {
+      "title": "Did You Know Your Bones Are Stronger Than Steel by Weight?",
+      "hindi_script": "क्या आप जानते हैं कि वजन के अनुपात में आपकी हड्डियां स्टील से भी मजबूत होती हैं? यही कारण है कि हड्डियां भारी वजन सहन कर सकती हैं। हड्डियों को मजबूत रखने के लिए कैल्शियम युक्त भोजन, जैसे दूध और दही, और नियमित एक्सरसाइज बहुत जरूरी है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking milk", "indian girl calcium food", "milk glass bones", "indian girl exercise bones", "indian girl strong healthy", "dairy products table", "indian girl fitness strong"],
+      "engagement_text": "Did YOU know this about your bones?"
+    },
+    {
+      "title": "Did You Know Your Body Replaces Skin Every 27 Days?",
+      "hindi_script": "क्या आप जानते हैं कि आपकी त्वचा हर सत्ताईस दिन में पूरी तरह से नई हो जाती है? पुरानी स्किन सेल्स अपने आप झड़ती हैं और नई सेल्स उनकी जगह लेती हैं। इस प्रोसेस को बेहतर बनाने के लिए एक्सफोलिएशन और पर्याप्त पानी पीना मदद करता है। यह फैक्ट जानकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl skincare face", "indian girl glowing skin", "skincare cream application", "indian girl fresh skin", "indian girl beauty skin", "face cream applying", "indian girl healthy glow"],
+      "engagement_text": "Did YOU know this about skin renewal?"
+    },
+    {
+      "title": "Did You Know Sitting Too Long Is as Harmful as Smoking?",
+      "hindi_script": "क्या आप जानते हैं कि लंबे समय तक बैठे रहना सेहत के लिए स्मोकिंग जितना ही हानिकारक माना जाता है? इससे दिल की बीमारियां, वजन बढ़ना, और डायबिटीज का खतरा बढ़ सकता है। हर तीस से चालीस मिनट में उठकर थोड़ा चलना इस खतरे को कम करने में मदद करता है। यह फैक्ट सुनकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl sitting desk", "indian girl office chair", "office desk sitting", "indian girl standing break", "indian girl walking break", "desk work sitting", "indian girl office break"],
+      "engagement_text": "Does this fact worry YOU?"
+    },
+    {
+      "title": "Did You Know Your Nose Can Remember 50000 Scents?",
+      "hindi_script": "क्या आप जानते हैं कि आपकी नाक पचास हजार तक अलग-अलग खुशबुओं को याद रख सकती है? यह आपके दिमाग की मेमोरी से जुड़ी होती है, इसलिए कोई खुशबू पुरानी यादें ताजा कर देती है। यह हमारे सेंस ऑर्गन्स में सबसे शक्तिशाली मानी जाती है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl smelling flower", "flowers fragrance smell", "indian girl flower garden", "indian girl smelling perfume", "fresh flowers bouquet", "indian girl nature smell", "indian girl garden flowers"],
+      "engagement_text": "Did YOU know this fact about your nose?"
+    },
+    {
+      "title": "Did You Know Exercise Can Improve Your Memory?",
+      "hindi_script": "क्या आप जानते हैं कि नियमित एक्सरसाइज करने से आपकी मेमोरी और सीखने की क्षमता भी बेहतर हो सकती है? एक्सरसाइज के दौरान दिमाग में ब्लड फ्लो बढ़ता है, जो नए न्यूरॉन्स बनाने में मदद करता है। सिर्फ तीस मिनट की वॉक भी दिमाग के लिए फायदेमंद हो सकती है। यह फैक्ट जानकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl walking exercise", "indian girl jogging outdoor", "indian girl exercise brain", "walking outdoor fitness", "indian girl fitness walk", "jogging park outdoor", "indian girl morning exercise"],
+      "engagement_text": "Did YOU know exercise helps memory?"
+    },
+    {
+      "title": "Did You Know Your Eyes Can Distinguish 10 Million Colors?",
+      "hindi_script": "क्या आप जानते हैं कि आपकी आंखें लगभग एक करोड़ अलग-अलग रंगों को पहचान सकती हैं? यह आंखों में मौजूद कोन सेल्स की वजह से होता है। आंखों की सेहत के लिए विटामिन ए युक्त भोजन, जैसे गाजर और पालक, खाना फायदेमंद है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl eyes closeup", "colorful vegetables carrots", "indian girl healthy eyes", "carrot spinach food", "indian girl eye care", "colorful food vegetables", "indian girl vision health"],
+      "engagement_text": "Did this fact amaze YOU?"
+    },
+    {
+      "title": "Did You Know Standing Burns More Calories Than Sitting?",
+      "hindi_script": "क्या आप जानते हैं कि बैठने के मुकाबले खड़े रहने पर आप ज्यादा कैलोरी बर्न करते हैं? यह छोटा सा अंतर लंबे समय में फर्क डाल सकता है। काम करते समय बीच-बीच में खड़े होना या स्टैंडिंग डेस्क का इस्तेमाल करना एक अच्छी आदत हो सकती है। यह फैक्ट सुनकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl standing desk", "indian girl standing office", "standing desk work", "indian girl workplace standing", "office standing work", "indian girl standing laptop", "indian girl active workplace"],
+      "engagement_text": "Will YOU try standing more often?"
+    },
+    {
+      "title": "Did You Know Your Body Has Enough Iron to Make a Nail?",
+      "hindi_script": "क्या आप जानते हैं कि आपके शरीर में इतना आयरन होता है कि उससे एक छोटी कील बनाई जा सके? यह आयरन खून में ऑक्सीजन ले जाने के लिए बहुत जरूरी है। आयरन की कमी से एनीमिया हो सकता है, इसलिए पालक, अनार, और चुकंदर जैसे आयरन युक्त फूड्स खाना जरूरी है। यह फैक्ट जानकर आपको कैसा लगा? कमेंट में बताएं!",
+      "keywords": ["indian girl eating spinach", "pomegranate beetroot food", "indian girl iron rich food", "spinach leaves green", "indian girl healthy vegetables", "iron rich vegetables", "indian girl nutritious diet"],
+      "engagement_text": "Did YOU know this fact about iron?"
+    },
+    {
+      "title": "Did You Know Chewing Gum Can Improve Focus?",
+      "hindi_script": "क्या आप जानते हैं कि च्युइंग गम चबाने से आपका फोकस और एकाग्रता बेहतर हो सकती है? कुछ रिसर्च बताती हैं कि यह ब्रेन के उन हिस्सों को एक्टिवेट करता है जो ध्यान लगाने में मदद करते हैं। हालांकि, शुगर-फ्री गम चुनना दांतों के लिए बेहतर है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl studying focus", "indian girl concentration work", "indian girl reading book", "studying desk books", "indian girl thinking focus", "books study table", "indian girl learning study"],
+      "engagement_text": "Did YOU know this fact about focus?"
+    },
+    {
+      "title": "Did You Know Your Ears Never Stop Growing?",
+      "hindi_script": "क्या आप जानते हैं कि आपके कान पूरी जिंदगी धीरे-धीरे बढ़ते रहते हैं? यह उम्र के साथ होने वाला एक सामान्य बदलाव है। हालांकि यह ग्रोथ बहुत धीमी और नॉर्मल होती है। यह हमारे शरीर के कई अजीब लेकिन सच्चे फैक्ट्स में से एक है। क्या आपको यह फैक्ट पता था? कमेंट में बताएं!",
+      "keywords": ["indian girl portrait face", "indian girl smiling portrait", "indian girl face closeup", "indian girl natural beauty", "portrait indian woman", "indian girl happy face", "indian girl beautiful smile"],
+      "engagement_text": "Did this surprising fact shock YOU?"
+    }
+  ],
+  "skin_hair_care": [
+    {
+      "title": "Why Does Your Hair Fall More in Monsoon?",
+      "hindi_script": "मॉनसून में बालों का झड़ना बढ़ जाना एक सामान्य समस्या है। नमी की वजह से स्कैल्प में फंगल इंफेक्शन और डैंड्रफ बढ़ सकता है, जो हेयर फॉल का कारण बनता है। बालों को साफ और सूखा रखना, और हफ्ते में दो से तीन बार तेल लगाना इस समस्या को कम करने में मदद करता है। आपके बाल मॉनसून में ज्यादा झड़ते हैं क्या? कमेंट में बताएं!",
+      "keywords": ["indian girl hair care", "indian girl oiling hair", "hair oil bottle", "indian girl monsoon hair", "indian girl washing hair", "hair care routine", "indian girl healthy hair"],
+      "engagement_text": "Does YOUR hair fall more in monsoon?"
+    },
+    {
+      "title": "Is Applying Ice on Face Good for Skin?",
+      "hindi_script": "चेहरे पर बर्फ लगाना त्वचा के लिए कई तरह से फायदेमंद हो सकता है। यह सूजन कम करता है, पोर्स को टाइट करता है, और चेहरे को तुरंत ताजगी देता है। हालांकि, बर्फ को सीधे त्वचा पर न लगाएं, इसे कपड़े में लपेटकर इस्तेमाल करें। क्या आप चेहरे पर बर्फ लगाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl ice face", "ice cubes bowl", "indian girl skincare ice", "indian girl face care cold", "ice cube skincare", "indian girl fresh face", "indian girl beauty routine"],
+      "engagement_text": "Do YOU apply ice on your face?"
+    },
+    {
+      "title": "Benefits of Applying Coconut Oil on Hair",
+      "hindi_script": "नारियल तेल बालों के लिए एक बहुत फायदेमंद प्राकृतिक उपाय है। यह बालों को गहराई से पोषण देता है, डैंड्रफ कम करता है, और बालों को मजबूत बनाता है। सोने से पहले स्कैल्प पर हल्की मसाज के साथ तेल लगाना सबसे असरदार माना जाता है। आप कितनी बार नारियल तेल लगाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl coconut oil hair", "coconut oil bottle hair", "indian girl hair oil massage", "indian girl applying oil", "coconut oil jar", "indian girl scalp massage", "indian girl hair treatment"],
+      "engagement_text": "How often do YOU oil your hair?"
+    },
+    {
+      "title": "Why You Should Never Skip Sunscreen",
+      "hindi_script": "सनस्क्रीन लगाना सिर्फ धूप में जाने पर ही जरूरी नहीं, बल्कि रोजाना जरूरी है, चाहे बादल हो या घर के अंदर हो। यह त्वचा को हानिकारक यूवी रेज़ से बचाता है, जो झुर्रियां, दाग-धब्बे, और स्किन कैंसर का कारण बन सकती हैं। कम से कम एसपीएफ तीस वाला सनस्क्रीन इस्तेमाल करना चाहिए। क्या आप रोजाना सनस्क्रीन लगाते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl applying sunscreen", "sunscreen bottle cream", "indian girl skincare sun", "indian girl face cream", "sunscreen tube application", "indian girl outdoor skincare", "indian girl protecting skin"],
+      "engagement_text": "Do YOU apply sunscreen every day?"
+    },
+    {
+      "title": "Benefits of Multani Mitti for Skin",
+      "hindi_script": "मुल्तानी मिट्टी त्वचा के लिए एक पुराना और असरदार प्राकृतिक उपाय है। यह एक्स्ट्रा ऑयल सोखती है, पोर्स को साफ करती है, और चेहरे को ठंडक देती है। इसे गुलाब जल के साथ मिलाकर लगाना ज्यादा फायदेमंद होता है। हफ्ते में एक या दो बार इस्तेमाल करना काफी है। क्या आप मुल्तानी मिट्टी इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl face mask", "multani mitti clay", "indian girl skincare mask", "clay mask application", "indian girl natural skincare", "face pack indian", "indian girl beauty mask"],
+      "engagement_text": "Do YOU use Multani Mitti for your skin?"
+    },
+    {
+      "title": "How to Reduce Hair Fall Naturally?",
+      "hindi_script": "बालों का झड़ना कम करने के लिए संतुलित आहार बहुत जरूरी है, जिसमें प्रोटीन, आयरन, और बायोटिन शामिल हो। इसके अलावा, बालों को ज्यादा टाइट न बांधें और हीट स्टाइलिंग टूल्स का इस्तेमाल कम करें। हफ्ते में नियमित तेल मसाज भी हेयर फॉल कम करने में मदद करती है। आप हेयर फॉल के लिए क्या करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl healthy hair", "indian girl hair massage", "protein food hair", "indian girl combing hair", "hair care natural", "indian girl brushing hair", "indian girl hair growth"],
+      "engagement_text": "What do YOU do to reduce hair fall?"
+    },
+    {
+      "title": "Why Drinking Water Improves Your Skin",
+      "hindi_script": "पर्याप्त पानी पीना त्वचा के लिए बेहद जरूरी है। यह त्वचा को हाइड्रेट रखता है, टॉक्सिन्स बाहर निकालता है, और चेहरे पर प्राकृतिक चमक लाता है। डिहाइड्रेटेड त्वचा रूखी और बेजान दिखने लगती है। दिनभर पर्याप्त पानी पीना सबसे आसान और फ्री स्किनकेयर टिप है। आप दिनभर कितना पानी पीते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl drinking water glowing", "indian girl glowing skin", "water glass skincare", "indian girl healthy glow face", "indian girl hydrated skin", "glass water drinking", "indian girl fresh face water"],
+      "engagement_text": "How much water do YOU drink for skin health?"
+    },
+    {
+      "title": "Benefits of Rice Water for Hair and Skin",
+      "hindi_script": "चावल का पानी बालों और त्वचा के लिए एक पुराना एशियाई ब्यूटी सीक्रेट है। इसमें मौजूद पोषक तत्व बालों को मजबूत बनाते हैं और त्वचा को चमकदार बनाते हैं। चावल धोने के बाद बचा पानी बालों पर या टोनर के रूप में इस्तेमाल किया जा सकता है। क्या आपने कभी राइस वाटर ट्राई किया है? कमेंट में बताएं!",
+      "keywords": ["indian girl rice water", "rice water bowl", "indian girl hair treatment natural", "indian girl beauty secret", "rice bowl water", "indian girl natural beauty", "indian girl skincare rice"],
+      "engagement_text": "Have YOU tried rice water for hair or skin?"
+    },
+    {
+      "title": "How Does Stress Affect Your Skin and Hair?",
+      "hindi_script": "ज्यादा तनाव लेने से त्वचा और बालों पर भी असर पड़ता है। तनाव से एक्ने, समय से पहले झुर्रियां, और हेयर फॉल बढ़ सकता है। शरीर में कॉर्टिसोल हार्मोन बढ़ने से स्किन और स्कैल्प दोनों प्रभावित होते हैं। तनाव कम करना सिर्फ मन के लिए नहीं, बल्कि त्वचा और बालों के लिए भी जरूरी है। आप तनाव कैसे मैनेज करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl stressed skin", "indian girl relaxing calm", "indian girl skincare stress", "indian girl meditation calm", "stress relief indian girl", "indian girl peaceful face", "indian girl self care"],
+      "engagement_text": "How do YOU manage stress for healthy skin?"
+    },
+    {
+      "title": "Benefits of Besan and Turmeric Face Pack",
+      "hindi_script": "बेसन और हल्दी का फेस पैक त्वचा के लिए एक पुराना और असरदार घरेलू नुस्खा है। यह त्वचा को साफ करता है, दाग-धब्बे कम करता है, और प्राकृतिक चमक लाता है। दूध या गुलाब जल के साथ मिलाकर लगाना ज्यादा फायदेमंद होता है। हफ्ते में एक या दो बार इस्तेमाल करना काफी है। आप यह फेस पैक इस्तेमाल करते हैं क्या? कमेंट में बताएं!",
+      "keywords": ["indian girl face pack besan", "turmeric besan mask", "indian girl applying facepack", "besan turmeric bowl", "indian girl natural facepack", "face mask indian", "indian girl skincare turmeric"],
+      "engagement_text": "Do YOU use this face pack?"
+    },
+    {
+      "title": "Why You Should Change Your Pillowcase Often",
+      "hindi_script": "तकिए का कवर बार-बार न बदलने से उस पर बैक्टीरिया, ऑयल, और डेड स्किन सेल्स जमा हो जाते हैं, जो एक्ने और स्किन इरिटेशन का कारण बन सकते हैं। हफ्ते में कम से कम एक या दो बार पिलोकेस बदलना त्वचा को साफ रखने में मदद करता है। क्या आप नियमित रूप से पिलोकेस बदलते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl bedroom pillow", "pillow bed clean", "indian girl sleeping bed", "clean bedsheet pillow", "indian girl bedroom clean", "pillow case bed", "indian girl skincare sleep"],
+      "engagement_text": "How often do YOU change your pillowcase?"
+    },
+    {
+      "title": "Benefits of Aloe Vera for Hair Growth",
+      "hindi_script": "एलोवेरा बालों की ग्रोथ के लिए एक बेहतरीन प्राकृतिक उपाय है। यह स्कैल्प को पोषण देता है, डैंड्रफ कम करता है, और बालों को मजबूत बनाता है। ताजा एलोवेरा जेल सीधे स्कैल्प पर लगाना सबसे असरदार माना जाता है। क्या आप बालों के लिए एलोवेरा इस्तेमाल करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl aloe vera hair", "aloe vera plant fresh", "indian girl applying gel hair", "aloe gel jar", "indian girl scalp treatment", "aloe vera leaf", "indian girl natural hair care"],
+      "engagement_text": "Do YOU use aloe vera for hair growth?"
+    },
+    {
+      "title": "Why Overwashing Your Face Can Be Harmful",
+      "hindi_script": "बहुत बार चेहरा धोना त्वचा के लिए नुकसानदायक हो सकता है। इससे त्वचा का नेचुरल ऑयल खत्म हो जाता है, जिससे त्वचा रूखी हो सकती है या ज्यादा ऑयल प्रोडूस कर सकती है। दिन में दो बार, सुबह और रात, चेहरा धोना काफी है। आप दिन में कितनी बार चेहरा धोते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl washing face", "indian girl face wash water", "face wash bathroom", "indian girl skincare morning", "indian girl cleansing face", "water face washing", "indian girl bathroom skincare"],
+      "engagement_text": "How many times do YOU wash your face daily?"
+    },
+    {
+      "title": "Benefits of Onion Juice for Hair Fall",
+      "hindi_script": "प्याज का रस बालों के झड़ने की समस्या के लिए एक पुराना और असरदार घरेलू उपाय है। इसमें मौजूद सल्फर बालों की जड़ों को मजबूत बनाता है और नई ग्रोथ में मदद करता है। हफ्ते में एक या दो बार स्कैल्प पर लगाना फायदेमंद माना जाता है। क्या आपने कभी प्याज का रस इस्तेमाल किया है? कमेंट में बताएं!",
+      "keywords": ["indian girl onion hair treatment", "onion juice bowl", "indian girl scalp treatment hair", "onion sliced kitchen", "indian girl hair remedy natural", "onion bowl kitchen", "indian girl natural hair treatment"],
+      "engagement_text": "Have YOU tried onion juice for hair fall?"
+    },
+    {
+      "title": "Why Sleep Quality Affects Your Skin",
+      "hindi_script": "अच्छी नींद न लेने का सीधा असर त्वचा पर दिखता है, जैसे डार्क सर्कल्स, बेजान त्वचा, और समय से पहले झुर्रियां। सोते समय शरीर त्वचा की मरम्मत और नई कोशिकाएं बनाने का काम करता है। सात से आठ घंटे की अच्छी नींद त्वचा की सेहत के लिए बहुत जरूरी है। आप रोजाना कितने घंटे सोते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl sleeping peacefully", "indian girl bedroom sleep skin", "sleeping bed night", "indian girl morning fresh face", "indian girl glowing morning", "bedroom sleep peaceful", "indian girl beauty sleep"],
+      "engagement_text": "How many hours do YOU sleep for healthy skin?"
+    },
+    {
+      "title": "Benefits of Curd for Hair and Skin",
+      "hindi_script": "दही बालों और त्वचा दोनों के लिए बहुत फायदेमंद है। यह स्कैल्प को पोषण देता है, डैंड्रफ कम करता है, और त्वचा को नमी देकर चमकदार बनाता है। दही को बालों में या फेस पैक के रूप में लगाना असरदार माना जाता है। क्या आप दही का इस्तेमाल स्किनकेयर या हेयरकेयर में करते हैं? कमेंट में बताएं!",
+      "keywords": ["indian girl curd hair mask", "yogurt bowl skincare", "indian girl applying curd", "curd face pack", "indian girl natural beauty curd", "yogurt hair treatment", "indian girl skincare yogurt"],
+      "engagement_text": "Do YOU use curd for skin or hair care?"
+    }
   ]
+}
   
