@@ -21,16 +21,28 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Cache apt packages
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/apt/archives
+          key: apt-cache-${{ runner.os }}-ffmpeg-v1
+
       - name: Install system dependencies
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu imagemagick
-  
+
       - name: Fix ImageMagick policy
         run: sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-cache-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pipeline (generate video + upload YouTube + Instagram)
+      - name: Run pipeline (generate video + upload YouTube)
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
@@ -41,7 +53,7 @@ jobs:
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: python main.py
 
-      - name: Create GitHub Release with video (for Instagram public URL)
+      - name: Create GitHub Release with video
         uses: softprops/action-gh-release@v2
         with:
           tag_name: video-${{ github.run_id }}
