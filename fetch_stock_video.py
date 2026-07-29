@@ -26,21 +26,34 @@ def download_video(url, output_path):
             f.write(chunk)
     return output_path
 
-def get_stock_clips(keywords, num_clips=5):
-    """Increased default clips for faster-paced editing"""
-    clip_paths = []
+def get_stock_clips(keywords, num_clips=10):
+    """Fetches unique clips across all keywords, avoiding duplicates"""
+    all_urls = []
+    seen_urls = set()
     
-    for i in range(num_clips):
-        keyword = keywords[i % len(keywords)]
-        urls = search_pexels_videos(keyword, per_page=3)
-        
-        if urls:
-            path = f"stock_clip_{i}.mp4"
-            download_video(urls[0], path)
+    for keyword in keywords:
+        urls = search_pexels_videos(keyword, per_page=5)
+        for url in urls:
+            if url not in seen_urls:
+                seen_urls.add(url)
+                all_urls.append(url)
+    
+    print(f"Found {len(all_urls)} unique video URLs across {len(keywords)} keywords")
+    
+    clip_paths = []
+    for i, url in enumerate(all_urls[:num_clips]):
+        path = f"stock_clip_{i}.mp4"
+        try:
+            download_video(url, path)
             clip_paths.append(path)
+        except Exception as e:
+            print(f"Failed to download clip {i}: {e}")
+    
+    if len(clip_paths) < 3:
+        print(f"WARNING: Only found {len(clip_paths)} unique clips")
     
     return clip_paths
 
 if __name__ == "__main__":
-    clips = get_stock_clips(["yoga", "meditation"])
-    print(f"Downloaded {len(clips)} clips")
+    clips = get_stock_clips(["yoga", "meditation", "wellness"])
+    print(f"Downloaded {len(clips)} unique clips")
