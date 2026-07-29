@@ -53,7 +53,6 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     clip_duration = min(total_duration / max(len(stock_clips), 1), 2.0)
     num_clips_needed = int(total_duration / clip_duration) + 1
     
-    # Build sequence avoiding immediate repeats of the same clip
     available = list(range(len(stock_clips)))
     random.shuffle(available)
     clip_sequence = []
@@ -62,7 +61,6 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
         if not available:
             available = list(range(len(stock_clips)))
             random.shuffle(available)
-            # Avoid picking same as last_used if possible
             if len(available) > 1 and available[0] == last_used:
                 available[0], available[1] = available[1], available[0]
         pick = available.pop()
@@ -94,7 +92,6 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     label_clip = TextClip(category_label, fontsize=50, color='#64C8FF', font='DejaVu-Sans-Bold')
     label_clip = label_clip.set_position(('center', 150)).set_duration(total_duration)
     
-    # Clean title - ensure question mark preserved, strip only emojis
     clean_title = strip_emojis_keep_punctuation(title_text)
     
     title_duration = total_duration * 0.6
@@ -108,7 +105,6 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
         return 1.0
     title_clip = title_clip.resize(title_scale)
     
-    # Clean question text - strip emojis, guarantee "?" present
     clean_question_text = strip_emojis_keep_punctuation(engagement_text)
     if not clean_question_text.endswith('?'):
         clean_question_text += '?'
@@ -128,25 +124,10 @@ def create_branded_short(stock_clips, audio_path, title_text, category, engageme
     question_clip = question_clip.set_start(question_start).set_duration(question_duration)
     question_clip = question_clip.set_position(question_position)
     
-    # Bold animated question mark accent graphic
-    question_mark_accent = TextClip("❓", fontsize=100, color='#FFD700', font='DejaVu-Sans-Bold')
-    question_mark_accent = question_mark_accent.set_position((880, 500))
-    question_mark_accent = question_mark_accent.set_start(question_start).set_duration(question_duration)
-    
-    def qmark_scale(t):
-        if t < 0.3:
-            return 1.3 - (0.3 * (t / 0.3))
-        return 1.0
-    question_mark_accent = question_mark_accent.resize(qmark_scale)
-    
     brand_clip = TextClip("FitSehatzone", fontsize=45, color='#64C8FF', font='DejaVu-Sans-Bold')
     brand_clip = brand_clip.set_position(('center', 1750)).set_duration(total_duration)
     
-    emoji_accent = TextClip("✨", fontsize=80, color='white')
-    emoji_accent = emoji_accent.set_position((850, 550)).set_duration(min(2.0, title_duration))
-    emoji_accent = emoji_accent.fx(fadein, 0.2)
-    
-    layers = [background, overlay, label_clip, title_clip, question_clip, question_mark_accent, brand_clip, emoji_accent]
+    layers = [background, overlay, label_clip, title_clip, question_clip, brand_clip]
     
     if os.path.exists("logo.png"):
         ring_color = CATEGORY_RING_COLORS.get(category, (100, 200, 255))
