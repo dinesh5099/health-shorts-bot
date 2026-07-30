@@ -2,9 +2,9 @@ name: Daily Health Shorts (3x Daily)
 
 on:
   schedule:
-    - cron: '0 1 * * *'
-    - cron: '30 7 * * *'
-    - cron: '30 14 * * *'
+    - cron: '17 1 * * *'
+    - cron: '53 7 * * *'
+    - cron: '41 14 * * *'
   workflow_dispatch:
 
 permissions:
