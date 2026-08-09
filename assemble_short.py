@@ -31,7 +31,15 @@ CATEGORY_LABELS = {
     "myth_vs_fact": "MYTH VS FACT",
     "home_remedies": "HOME REMEDY",
     "quick_facts": "DID YOU KNOW",
-    "skin_hair_care": "SKIN & HAIR CARE"
+    "skin_hair_care": "SKIN & HAIR CARE",
+    "ayurveda_wisdom": "AYURVEDA WISDOM",
+    "gym_workout_science": "GYM SCIENCE",
+    "mental_health_mindfulness": "MENTAL HEALTH",
+    "weight_loss_deep_dives": "WEIGHT LOSS FACT",
+    "womens_health": "WOMEN'S HEALTH",
+    "seasonal_health": "SEASONAL HEALTH",
+    "kitchen_science": "KITCHEN SCIENCE",
+    "age_specific_health": "AGE & HEALTH"
 }
 
 CATEGORY_RING_COLORS = {
@@ -40,7 +48,15 @@ CATEGORY_RING_COLORS = {
     "myth_vs_fact": (255, 150, 100),
     "home_remedies": (200, 255, 100),
     "quick_facts": (255, 220, 100),
-    "skin_hair_care": (255, 150, 220)
+    "skin_hair_care": (255, 150, 220),
+    "ayurveda_wisdom": (255, 180, 80),
+    "gym_workout_science": (255, 90, 90),
+    "mental_health_mindfulness": (180, 150, 255),
+    "weight_loss_deep_dives": (100, 220, 200),
+    "womens_health": (255, 130, 180),
+    "seasonal_health": (130, 200, 255),
+    "kitchen_science": (200, 170, 100),
+    "age_specific_health": (150, 200, 150)
 }
 
 def create_branded_short(stock_clips, audio_path, title_text, category, engagement_text, output_path="health_short.mp4"):
